@@ -1,0 +1,74 @@
+lgbm_tuned_1,LightGBM,0.8828192588071326,2025-06-15,"{'num_leaves': 50, 'max_depth': 7, 'learning_rate': 0.05, 'subsample': 0.85, 'colsample_bytree': 0.95}",LGBM Grid #1,model_id,model_type,AUC,date,params,notes
+lgbm_tuned_2,LightGBM,0.8829530424394862,2025-06-15,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",LGBM Grid #2,,,,,,
+lgbm_tuned_3,LightGBM,0.8830482100753472,2025-06-15,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.9, 'colsample_bytree': 0.85}",LGBM Grid #3,,,,,,
+knn_test,KNN,0.7251201227523827,2025-06-15,{'n_neighbors': 5},KNN Test,,,,,,
+logreg_test,LogReg,0.8682749853076055,2025-06-15,"{'solver': 'liblinear', 'C': 1.0, 'max_iter': 200}",LogReg Test,,,,,,
+rf_test,RandomForest,0.857656794706528,2025-06-15,"{'n_estimators': 100, 'max_depth': 10, 'random_state': 42}",RF Test,,,,,,
+lgbm_final,LightGBM,0.882953084898104,2025-06-15,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",Final LGBM,,,,,,
+xgb_final,XGBoost,0.882150233435518,2025-06-15,"{'n_estimators': 500, 'max_depth': 6, 'learning_rate': 0.035, 'subsample': 0.9, 'colsample_bytree': 0.9, 'eval_metric': 'logloss', 'random_state': 42, 'use_label_encoder': False}",Final XGBoost,,,,,,
+,,,,,,lgbm_v1,LightGBM,0.882953084898104,2025-06-15,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v2,LightGBM,0.8829751804820176,2025-06-15,"{'num_leaves': 80, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",LGBM config #2
+,,,,,,lgbm_v3,LightGBM,0.8827076016185587,2025-06-15,"{'num_leaves': 100, 'max_depth': 12, 'learning_rate': 0.025, 'subsample': 0.95, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #3
+,,,,,,xgb_v1,XGBoost,0.882150233435518,2025-06-15,"{'n_estimators': 500, 'max_depth': 6, 'learning_rate': 0.035, 'subsample': 0.9, 'colsample_bytree': 0.9, 'eval_metric': 'logloss', 'random_state': 42, 'use_label_encoder': False}",XGB config #1
+,,,,,,xgb_v2,XGBoost,0.8813643331521124,2025-06-15,"{'n_estimators': 600, 'max_depth': 5, 'learning_rate': 0.03, 'subsample': 0.85, 'colsample_bytree': 0.8, 'eval_metric': 'logloss', 'random_state': 42, 'use_label_encoder': False}",XGB config #2
+,,,,,,xgb_v3,XGBoost,0.8789405763397266,2025-06-15,"{'n_estimators': 700, 'max_depth': 4, 'learning_rate': 0.02, 'subsample': 1.0, 'colsample_bytree': 1.0, 'eval_metric': 'logloss', 'random_state': 42, 'use_label_encoder': False}",XGB config #3
+,,,,,,rf_v1,RandomForest,0.8609735461514461,2025-06-15,"{'n_estimators': 300, 'max_depth': 12, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'bootstrap': True, 'random_state': 42, 'n_jobs': -1}",RF config #1
+,,,,,,lgbm_v1,LightGBM,0.882953084898104,2025-06-15,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v2,LightGBM,0.8829751804820176,2025-06-15,"{'num_leaves': 80, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",LGBM config #2
+,,,,,,lgbm_v3,LightGBM,0.8827076016185587,2025-06-15,"{'num_leaves': 100, 'max_depth': 12, 'learning_rate': 0.025, 'subsample': 0.95, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #3
+,,,,,,lgbm_v4,LightGBM,0.8819432430320852,2025-06-15,"{'num_leaves': 40, 'max_depth': 6, 'learning_rate': 0.02, 'subsample': 0.85, 'colsample_bytree': 0.95, 'random_state': 42}",LGBM config #4
+,,,,,,lgbm_v5,LightGBM,0.8790525451389708,2025-06-15,"{'num_leaves': 30, 'max_depth': 5, 'learning_rate': 0.01, 'subsample': 0.9, 'colsample_bytree': 1.0, 'random_state': 42}",LGBM config #5
+,,,,,,lgbm_v1,LightGBM,0.8827944142566964,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v1,LightGBM,0.9799985739656308,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v1,LightGBM,0.9804056821405372,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v1,LightGBM,0.9804056821405372,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v1,LightGBM,0.9804056821405372,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v1,LightGBM,0.9804056821405372,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v1,LightGBM,0.9801051277757926,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v1,LightGBM,0.9804056821405372,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v2,LightGBM,0.9798596483205656,2025-06-17,"{'num_leaves': 80, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",LGBM config #2
+,,,,,,lgbm_v1,LightGBM,0.9801051277757926,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v2,LightGBM,0.9797208803840092,2025-06-17,"{'num_leaves': 80, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",LGBM config #2
+,,,,,,lgbm_v1,LightGBM,0.9801051277757926,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v2,LightGBM,0.9797208803840092,2025-06-17,"{'num_leaves': 80, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",LGBM config #2
+,,,,,,lgbm_v3,LightGBM,0.9801208307914816,2025-06-17,"{'num_leaves': 100, 'max_depth': 12, 'learning_rate': 0.025, 'subsample': 0.95, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #3
+,,,,,,lgbm_v1,LightGBM,0.9801051277757926,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",LGBM config #1
+,,,,,,lgbm_v2,LightGBM,0.9797208803840092,2025-06-17,"{'num_leaves': 80, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",LGBM config #2
+,,,,,,lgbm_normal_v1,LightGBM,0.98080818571713,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",NORMAL config #1
+,,,,,,lgbm_testID_shuffled_v1,LightGBM,0.98080818571713,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",TESTID_SHUFFLED config #1
+,,,,,,lgbm_trainID_shuffled_v1,LightGBM,0.8828036158518497,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",TRAINID_SHUFFLED config #1
+,,,,,,lgbm_noID_v1,LightGBM,0.8829525436786808,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",NOID config #1
+,,,,,,lgbm_both_shuffled_v1,LightGBM,0.8827657940992448,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",BOTH_SHUFFLED config #1
+,,,,,,lgbm_trainID_testRandom_v1,LightGBM,0.98080818571713,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",TRAINID_TESTRANDOM config #1
+,,,,,,lgbm_trainID_testRandom_v1,LightGBM,0.9802157001968628,2025-06-17,"{'num_leaves': 90, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.9, 'random_state': 42}",TRAINID_TESTRANDOM config #1
+,,,,,,lgbm_normal_v1,LightGBM,0.9802157001968628,2025-06-17,"{'num_leaves': 90, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.9, 'random_state': 42}",NORMAL config #1
+,,,,,,lgbm_normal_v2,LightGBM,0.9787445934381236,2025-06-17,"{'num_leaves': 50, 'max_depth': 7, 'learning_rate': 0.035, 'subsample': 0.95, 'colsample_bytree': 0.95, 'random_state': 42}",NORMAL config #2
+,,,,,,lgbm_normal_v3,LightGBM,0.9788539523616324,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.03, 'subsample': 0.85, 'colsample_bytree': 0.9, 'random_state': 42}",NORMAL config #3
+,,,,,,lgbm_normal_v4,LightGBM,0.9807192077220092,2025-06-17,"{'num_leaves': 120, 'max_depth': 14, 'learning_rate': 0.02, 'subsample': 0.95, 'colsample_bytree': 0.85, 'random_state': 42}",NORMAL config #4
+,,,,,,lgbm_normal_v5,LightGBM,0.9804883391181296,2025-06-17,"{'num_leaves': 150, 'max_depth': 16, 'learning_rate': 0.015, 'subsample': 1.0, 'colsample_bytree': 0.95, 'random_state': 42}",NORMAL config #5
+,,,,,,lgbm_normal_v1,LightGBM,0.9803349037882502,2025-06-17,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",NORMAL config #1
+,,,,,,lgbm_normal_v1,LightGBM,0.9809680791477146,2025-06-17,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",NORMAL config #1
+,,,,,,lgbm_normal_v2,LightGBM,0.9802157001968628,2025-06-17,"{'num_leaves': 90, 'max_depth': 10, 'learning_rate': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.9, 'random_state': 42}",NORMAL config #2
+,,,,,,lgbm_fs_top50,LightGBM_FS,0.9803902677905992,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 50 feature selection
+,,,,,,lgbm_fs_top30,LightGBM_FS,0.9805252700714672,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 30 feature selection
+,,,,,,lgbm_fs_top10,LightGBM_FS,0.9764229121656364,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 30 feature selection
+,,,,,,lgbm_fs_top20,LightGBM_FS,0.9800948838485904,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 20 feature selection
+,,,,,,lgbm_fs_top25,LightGBM_FS,0.9806104436564108,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 25 feature selection
+,,,,,,lgbm_fs_top20,LightGBM_FS,0.9800948838485904,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 20 feature selection
+,,,,,,lgbm_fs_top20,LightGBM_FS,0.9800948838485904,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 20 feature selection
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9803349037882502,2025-07-02,"{'num_leaves': 70, 'max_depth': 8, 'learning_rate': 0.04, 'subsample': 0.9, 'colsample_bytree': 0.85, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9652955649841248,2025-07-02,"{'num_leaves': 6, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-02,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_fs_top50,LightGBM_FS,0.9805728193373318,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Top 50 feature selection
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9807299137947826,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42, 'deterministic': True, 'force_col_wise': True, 'n_jobs': 1}",Best LGBM model from exploration
+,,,,,,lgbm_fs_top50,LightGBM_FS,0.9805728079731942,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9, 'random_state': 42, 'deterministic': True, 'force_col_wise': True, 'n_jobs': 1}",Top 50 feature selection
+,,,,,,lgbm_best,LightGBM,0.9809680791477146,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Best LGBM model from exploration
+,,,,,,lgbm_fs_top50,LightGBM_FS,0.9803902677905992,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Top 50 feature selection
+,,,,,,lgbm_best,LightGBM,0.9809680791477146,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Best LGBM model from exploration
+,,,,,,lgbm_best,LightGBM,0.9809680791477146,2025-07-03,"{'num_leaves': 60, 'max_depth': 8, 'learning_rate': 0.045, 'subsample': 0.8, 'colsample_bytree': 0.9}",Best LGBM model from exploration
